@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+
+  h1 {
+                  
+       font-family: Roboto;
+ 
+       font-size:40px;
+       color: navy;
+       
+                   
+          }
+
+                         nav{
+                  margin:27px auto 0;
+                  position:relative;
+                  width:720px;
+                  height:50px;
+                  background-color:navy;
+                  border-radius:9px;
+                  font-size: 0;
+                }
+  
+
+                         nav a {
+                 line-height:50px;
+                 height:100%;
+                 font-size:15px;
+                 display:inline-block;
+                 position:relative;
+                 z-index:1;
+                 text-decoration:none;
+                 text-transform:uppercase;
+                 text-align:center;
+                 color:white;
+                 cursor:pointer;
+                }
+
+
+                nav .animation {
+                 position:absolute;
+                 height:100%;
+                 top:0;
+                 z-index:0;
+                 transition:all .5s ease 0s;
+                 border-radius:8px;
+                }
+
+        a:nth-child(1) {
+                width:100px;
+                }
+
+           a:nth-child(2) {
+              width:110px;
+               } 
+
+          a:nth-child(3) {
+              width:100px;
+               }
+        a:nth-child(4) {
+width:160px;
+} 
+
+a:nth-child(5) {
+width:120px;
+}
+
+a:nth-child(6) {
+width:115px;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation{
+width:100px;
+left:0;
+background-color:#1abc9c;
+}
+
+nav .start-about,a:nth-child(2):hover~.animation{
+width:110px;
+left:100px;
+background-color:#e74c3c;
+}
+
+nav .start-blog,a:nth-child(3):hover~.animation{
+width:100px;
+left:210px;
+background-color:#3498db;
+}
+
+nav .start-portefolio,a:nth-child(4):hover~.animation{
+width:160px;
+left:310px;
+background-color:#9b59b6;
+}
+
+nav .start-contact,a:nth-child(5):hover~.animation{
+width:120px;
+left:470px;
+background-color:#e67e22;
+}
+
+nav .start-downloads,a:nth-child(6):hover~.animation{
+width:140px;
+left:580px;
+background-color:green;
+}
+
+/*BODY*/
+
+.index{
+font-size:12px;
+font-family:sans-serif;
+background-size:cover;
+background-attachment:fixed;
+/*background-image: linear-gradient(195deg, transparent 0%, transparent 35%,rgba(0,0,0,0.02) 35%, rgba(0,0,0,0.02) 88%,transparent 88%, transparent 100%),radial-gradient(circle at 59% 11%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 2%,transparent 2%, transparent 100%),radial-gradient(circle at 80% 89%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 2%,transparent 2%, transparent 100%),radial-gradient(circle at 68% 7%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 2%,transparent 2%, transparent 100%),radial-gradient(circle at 2% 85%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 2%,transparent 2%, transparent 100%),radial-gradient(circle at 99% 21%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 7% 79%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 68% 39%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.02) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 63% 32%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.02) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 44% 24%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.02) 8%,transparent 8%, transparent 100%),radial-gradient(circle at 79% 49%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 93% 55%, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.02) 5%,transparent 5%, transparent 100%),radial-gradient(circle at 66% 50%, rgba(0,0,0,0.03) 0%, rgba(0,0,0,0.03) 5%,transparent 5%, transparent 100%),linear-gradient(90deg, rgb(189, 246, 180),rgb(45, 116, 240));*/
+background-image: radial-gradient(circle at 77% 26%, rgba(175, 175, 175,0.06) 0%, rgba(175, 175, 175,0.06) 4%,transparent 4%, transparent 100%),radial-gradient(circle at 37% 90%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 7% 92%, rgba(53, 53, 53,0.06) 0%, rgba(53, 53, 53,0.06) 39%,transparent 39%, transparent 100%),radial-gradient(circle at 65% 17%, rgba(128, 128, 128,0.06) 0%, rgba(128, 128, 128,0.06) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 100% 39%, rgba(75, 75, 75,0.06) 0%, rgba(75, 75, 75,0.06) 20%,transparent 20%, transparent 100%),radial-gradient(circle at 92% 34%, rgba(205, 205, 205,0.06) 0%, rgba(205, 205, 205,0.06) 35%,transparent 35%, transparent 100%),radial-gradient(circle at 63% 90%, rgba(98, 98, 98,0.06) 0%, rgba(98, 98, 98,0.06) 62%,transparent 62%, transparent 100%),radial-gradient(circle at 93% 74%, rgba(130, 130, 130,0.06) 0%, rgba(130, 130, 130,0.06) 65%,transparent 65%, transparent 100%),linear-gradient(90deg, rgb(18, 233, 78),rgb(160, 239, 92));
+}
+
+
+
+  .tagline{
+  padding:0px;
+  margin:0px;
+  font-size:30px;
+
+}
+.downloads{
+    font-size:12px;
+    font-family:sans-serif;
+    background-size:cover;
+    background-attachment:fixed;
+    background-image: radial-gradient(circle at 17% 1%, rgba(198, 198, 198,0.03) 0%, rgba(198, 198, 198,0.03) 50%,rgba(42, 42, 42,0.03) 50%, rgba(42, 42, 42,0.03) 100%),radial-gradient(circle at 8% 81%, rgba(253, 253, 253,0.03) 0%, rgba(253, 253, 253,0.03) 50%,rgba(36, 36, 36,0.03) 50%, rgba(36, 36, 36,0.03) 100%),radial-gradient(circle at 83% 29%, rgba(164, 164, 164,0.03) 0%, rgba(164, 164, 164,0.03) 50%,rgba(60, 60, 60,0.03) 50%, rgba(60, 60, 60,0.03) 100%),radial-gradient(circle at 96% 62%, rgba(170, 170, 170,0.03) 0%, rgba(170, 170, 170,0.03) 50%,rgba(169, 169, 169,0.03) 50%, rgba(169, 169, 169,0.03) 100%),linear-gradient(338deg, rgb(2, 141, 213),rgb(5, 172, 81));
+}
+
+
+  .contact{
+    font-size:12px;
+    font-family:sans-serif;
+    background-size:cover;
+    background-attachment:fixed;
+    background-image: radial-gradient(circle at 17% 1%, rgba(198, 198, 198,0.03) 0%, rgba(198, 198, 198,0.03) 50%,rgba(42, 42, 42,0.03) 50%, rgba(42, 42, 42,0.03) 100%),radial-gradient(circle at 8% 81%, rgba(253, 253, 253,0.03) 0%, rgba(253, 253, 253,0.03) 50%,rgba(36, 36, 36,0.03) 50%, rgba(36, 36, 36,0.03) 100%),radial-gradient(circle at 83% 29%, rgba(164, 164, 164,0.03) 0%, rgba(164, 164, 164,0.03) 50%,rgba(60, 60, 60,0.03) 50%, rgba(60, 60, 60,0.03) 100%),radial-gradient(circle at 96% 62%, rgba(170, 170, 170,0.03) 0%, rgba(170, 170, 170,0.03) 50%,rgba(169, 169, 169,0.03) 50%, rgba(169, 169, 169,0.03) 100%),linear-gradient(338deg, rgb(2, 141, 213),rgb(5, 172, 81));
+}
+
+  .about{   
+    font-size:12px;
+    font-family:sans-serif;
+    background-size:cover;
+    background-attachment:fixed;
+    background-image: radial-gradient(circle at 17% 1%, rgba(198, 198, 198,0.03) 0%, rgba(198, 198, 198,0.03) 50%,rgba(42, 42, 42,0.03) 50%, rgba(42, 42, 42,0.03) 100%),radial-gradient(circle at 8% 81%, rgba(253, 253, 253,0.03) 0%, rgba(253, 253, 253,0.03) 50%,rgba(36, 36, 36,0.03) 50%, rgba(36, 36, 36,0.03) 100%),radial-gradient(circle at 83% 29%, rgba(164, 164, 164,0.03) 0%, rgba(164, 164, 164,0.03) 50%,rgba(60, 60, 60,0.03) 50%, rgba(60, 60, 60,0.03) 100%),radial-gradient(circle at 96% 62%, rgba(170, 170, 170,0.03) 0%, rgba(170, 170, 170,0.03) 50%,rgba(169, 169, 169,0.03) 50%, rgba(169, 169, 169,0.03) 100%),linear-gradient(338deg, rgb(2, 141, 213),rgb(5, 172, 81));
+}
+
+  .portfolio{
+    font-size:12px;
+    font-family:sans-serif;
+    background-size:cover;
+    background-attachment:fixed;
+    background-image: radial-gradient(circle at 17% 1%, rgba(198, 198, 198,0.03) 0%, rgba(198, 198, 198,0.03) 50%,rgba(42, 42, 42,0.03) 50%, rgba(42, 42, 42,0.03) 100%),radial-gradient(circle at 8% 81%, rgba(253, 253, 253,0.03) 0%, rgba(253, 253, 253,0.03) 50%,rgba(36, 36, 36,0.03) 50%, rgba(36, 36, 36,0.03) 100%),radial-gradient(circle at 83% 29%, rgba(164, 164, 164,0.03) 0%, rgba(164, 164, 164,0.03) 50%,rgba(60, 60, 60,0.03) 50%, rgba(60, 60, 60,0.03) 100%),radial-gradient(circle at 96% 62%, rgba(170, 170, 170,0.03) 0%, rgba(170, 170, 170,0.03) 50%,rgba(169, 169, 169,0.03) 50%, rgba(169, 169, 169,0.03) 100%),linear-gradient(338deg, rgb(2, 141, 213),rgb(5, 172, 81));
+}
+
+   .blog{
+    font-size:12px;
+    font-family:sans-serif;
+    background-size:cover;
+    background-attachment:fixed;
+    background-image: radial-gradient(circle at 17% 1%, rgba(198, 198, 198,0.03) 0%, rgba(198, 198, 198,0.03) 50%,rgba(42, 42, 42,0.03) 50%, rgba(42, 42, 42,0.03) 100%),radial-gradient(circle at 8% 81%, rgba(253, 253, 253,0.03) 0%, rgba(253, 253, 253,0.03) 50%,rgba(36, 36, 36,0.03) 50%, rgba(36, 36, 36,0.03) 100%),radial-gradient(circle at 83% 29%, rgba(164, 164, 164,0.03) 0%, rgba(164, 164, 164,0.03) 50%,rgba(60, 60, 60,0.03) 50%, rgba(60, 60, 60,0.03) 100%),radial-gradient(circle at 96% 62%, rgba(170, 170, 170,0.03) 0%, rgba(170, 170, 170,0.03) 50%,rgba(169, 169, 169,0.03) 50%, rgba(169, 169, 169,0.03) 100%),linear-gradient(338deg, rgb(2, 141, 213),rgb(5, 172, 81));
+}
+
+
+.exam{
+ display:flex;
+
+}
+
+
+img{
+   width:70px;
+   height:70px;
+   border-radius:35px;
+}
+ section{
+ padding-left:50px;
+padding-top:30px;
+text-align:center;
+}
+
+ section b{
+ color:indigo;
+font-size:20px;
+}
+
+section p{
+  font-weight:600;
+}
+
